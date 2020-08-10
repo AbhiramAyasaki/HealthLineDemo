@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name ="organization")
 public class OrganizationDO {
 	
-	 @javax.persistence.Id
+	 @javax.persistence.Id 
 	 @GeneratedValue(strategy = GenerationType.AUTO)
      private Long Id;	
 	
